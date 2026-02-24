@@ -157,7 +157,7 @@ npm run dev
 
 ### Design & UX:
 ✅ Premium, professional interface  
-✅ Aurora gradient theme 
+✅ Aurora gradient theme    
 ✅ Live terminal stream (engaging)  
 ✅ One-click testing  
 
