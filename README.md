@@ -12,9 +12,7 @@ Every minute of downtime costs companies thousands of dollars. DevOps teams spen
 
 AuroraAI was born from this vision - like the aurora borealis illuminating the night sky, our AI illuminates infrastructure health, making the invisible visible and healing issues before they impact users.
 
-<img width="2936" height="1196" alt="image" src="https://github.com/user-attachments/assets/6da54f2d-7e64-4c8a-a240-c974f21f3de8" />
-
-<img width="2627" height="1186" alt="image" src="https://github.com/user-attachments/assets/0df48e93-043b-43b7-92ca-fd0b40a10d25" />
+<img width="2564" height="1186" alt="image" src="https://github.com/user-attachments/assets/7a7dd46a-d62c-4765-a2b7-2214d4756a43" />
 
 ---
 
