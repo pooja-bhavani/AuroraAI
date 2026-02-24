@@ -1,5 +1,14 @@
 # 💫 AuroraAI - Illuminate Infrastructure Health with AI
 
+<div align="center">
+
+![AuroraAI Banner](https://img.shields.io/badge/AuroraAI-Intelligent%20Monitoring-blueviolet?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+
+**Beautiful Intelligence. Instant Detection. Auto-Healing.**
+
 ## TerraCode Convergence Hackathon 2026
 
 **Beautiful Intelligence. Instant Detection. Auto-Healing.**
@@ -16,15 +25,22 @@ AuroraAI was born from this vision - like the aurora borealis illuminating the n
 
 ---
 
-## 🎯 What It Does
+
+
+### The Problem
+- Every minute of downtime costs companies **thousands of dollars**
+- DevOps teams spend **hours** manually debugging incidents
+- Generic error messages provide **no actionable insights**
+- Mean Time To Recovery (MTTR) averages **2-4 hours**
+
+## What It Does
 
 AuroraAI is an **AI-powered incident detection and auto-healing platform** that:
 
-✅ **Monitors ANY website** - From Fortune 500 to startups  
-✅ **Detects errors instantly** - 500, 502, 503, timeouts, API failures  
-✅ **AI diagnosis** - Identifies root cause with 85%+ confidence  
-✅ **Auto-healing** - Applies fixes automatically  
-✅ **Reduces MTTR by 99%** - From hours to seconds  
+- ✅ Detect errors in **seconds** (not hours)
+- ✅ Provide **context-specific** explanations for each website
+- ✅ Recommend **domain-aware** fixes
+- ✅ Reduce MTTR by **99%** (from hours to seconds)
 
 ### Real-World Impact:
 - **E-commerce**: Prevents $50K/hour revenue loss during outages
