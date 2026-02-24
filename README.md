@@ -14,7 +14,7 @@ AuroraAI was born from this vision - like the aurora borealis illuminating the n
 
 <img width="2936" height="1196" alt="image" src="https://github.com/user-attachments/assets/6da54f2d-7e64-4c8a-a240-c974f21f3de8" />
 
-<img width="2627" height="1186" alt="image" src="https://github.com/user-attachments/assets/f1a2adc4-1e06-41f9-8e9a-663de9d66c13" />
+<img width="2627" height="1186" alt="image" src="https://github.com/user-attachments/assets/0df48e93-043b-43b7-92ca-fd0b40a10d25" />
 
 ---
 
