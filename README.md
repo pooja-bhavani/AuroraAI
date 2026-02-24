@@ -135,35 +135,6 @@ npm run dev
 
 ---
 
-## Why AuroraAI Wins
-
-### Innovation & Creativity:
-✅ First AI platform to monitor ANY website universally  
-✅ Real-time AI diagnosis with confidence scoring  
-✅ Beautiful aurora-inspired UI that stands out  
-✅ Automatic API discovery and health checking  
-
-### Technical Implementation:
-✅ Full-stack with real-time WebSockets  
-✅ Production-ready architecture  
-✅ Clean, maintainable code  
-✅ 85%+ AI accuracy  
-
-### Impact & Relevance:
-✅ Solves downtime problem  
-✅ Works for ANY company with a website  
-✅ Reduces MTTR by 99%  
-✅ Measurable ROI from day one  
-
-### Design & UX:
-✅ Premium, professional interface  
-✅ Aurora gradient theme    
-✅ Live terminal stream (engaging)  
-✅ One-click testing  
-
----
-
-
 ## 📝 License
 
 MIT License - Open Source
