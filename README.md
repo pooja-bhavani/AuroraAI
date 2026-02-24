@@ -150,7 +150,7 @@ npm run dev
 ✅ 85%+ AI accuracy  
 
 ### Impact & Relevance:
-✅ Solves $100B/year downtime problem  
+✅ Solves downtime problem  
 ✅ Works for ANY company with a website  
 ✅ Reduces MTTR by 99%  
 ✅ Measurable ROI from day one  
