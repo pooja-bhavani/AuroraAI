@@ -5,8 +5,6 @@
 ![AuroraAI Banner](https://img.shields.io/badge/AuroraAI-Intelligent%20Monitoring-blueviolet?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
-
 </div>
 
 **Beautiful Intelligence. Instant Detection. Auto-Healing.**
