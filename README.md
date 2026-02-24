@@ -7,6 +7,8 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 
+</div>
+
 **Beautiful Intelligence. Instant Detection. Auto-Healing.**
 
 ## TerraCode Convergence Hackathon 2026
