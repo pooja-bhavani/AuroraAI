@@ -6,11 +6,14 @@
 
 ---
 
-## 💡 Inspiration
+## Inspiration
 
 Every minute of downtime costs companies thousands of dollars. DevOps teams spend hours manually debugging incidents, identifying failing APIs, and applying fixes. We asked: **What if AI could illuminate these issues instantly and heal them automatically?**
 
 AuroraAI was born from this vision - like the aurora borealis illuminating the night sky, our AI illuminates infrastructure health, making the invisible visible and healing issues before they impact users.
+
+<img width="2936" height="1196" alt="image" src="https://github.com/user-attachments/assets/6da54f2d-7e64-4c8a-a240-c974f21f3de8" />
+
 
 ---
 
