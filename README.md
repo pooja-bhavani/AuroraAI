@@ -1,6 +1,6 @@
 # 💫 AuroraAI - Illuminate Infrastructure Health with AI
 
-## 🏆 TerraCode Convergence Hackathon 2026
+## TerraCode Convergence Hackathon 2026
 
 **Beautiful Intelligence. Instant Detection. Auto-Healing.**
 
@@ -31,7 +31,7 @@ AuroraAI is an **AI-powered incident detection and auto-healing platform** that:
 
 ---
 
-## 🚀 How We Built It
+## How I Built It
 
 ### Tech Stack:
 **Frontend:**
@@ -61,7 +61,7 @@ User → React UI → Flask API → AI Engine → Auto-Healing
 
 ---
 
-## 🎨 Key Features
+## Key Features
 
 ### 1. Universal Monitoring
 Monitor ANY website - no configuration needed. Just paste the URL.
@@ -83,47 +83,24 @@ Automatically applies fixes and tracks Mean Time To Recovery (MTTR).
 
 ---
 
-## 🏗️ Challenges We Faced
+## Challenges I Faced
 
 1. **Real-time Communication** - Implemented WebSockets for live log streaming
 2. **AI Accuracy** - Built pattern matching algorithms with 85%+ confidence
 3. **Universal Compatibility** - Made it work for ANY website without configuration
-4. **Premium UX** - Created an interface that feels like a $100M product
-
+4. **Premium UX** 
 ---
 
-## 🎓 What We Learned
+## What I Learned
 
 - Building production-grade AI systems
 - Real-time WebSocket architecture
 - DevOps incident response workflows
 - Creating enterprise-ready UX that judges love
-
+  
 ---
 
-## 🔮 What's Next for AuroraAI
-
-### Phase 1 (Next 3 months):
-- 🤖 Slack/PagerDuty integration
-- 📊 Analytics dashboard
-- 🔄 Kubernetes auto-rollback
-- 🌍 Multi-region monitoring
-
-### Phase 2 (6 months):
-- 📱 Mobile app for on-call engineers
-- 🧪 Chaos engineering integration
-- 🤝 Team collaboration features
-- 💼 Enterprise SSO
-
-### Phase 3 (1 year):
-- 🧠 Advanced ML models (GPT-4 integration)
-- 🔮 Predictive failure detection
-- 📈 Cost optimization recommendations
-- 🌐 Global CDN monitoring
-
----
-
-## 📊 Impact Metrics
+## Impact Metrics
 
 | Metric | Before AuroraAI | With AuroraAI | Improvement |
 |--------|-----------------|---------------|-------------|
@@ -156,45 +133,34 @@ npm run dev
 
 ---
 
-## 🏆 Why AuroraAI Wins
+## Why AuroraAI Wins
 
-### Innovation & Creativity (25%):
+### Innovation & Creativity:
 ✅ First AI platform to monitor ANY website universally  
 ✅ Real-time AI diagnosis with confidence scoring  
 ✅ Beautiful aurora-inspired UI that stands out  
 ✅ Automatic API discovery and health checking  
 
-### Technical Implementation (25%):
+### Technical Implementation:
 ✅ Full-stack with real-time WebSockets  
 ✅ Production-ready architecture  
 ✅ Clean, maintainable code  
 ✅ 85%+ AI accuracy  
 
-### Impact & Relevance (20%):
+### Impact & Relevance:
 ✅ Solves $100B/year downtime problem  
 ✅ Works for ANY company with a website  
 ✅ Reduces MTTR by 99%  
 ✅ Measurable ROI from day one  
 
-### Design & UX (15%):
+### Design & UX:
 ✅ Premium, professional interface  
-✅ Aurora gradient theme (unique)  
+✅ Aurora gradient theme 
 ✅ Live terminal stream (engaging)  
 ✅ One-click testing  
 
-### Presentation & Demo (15%):
-✅ Clear problem statement  
-✅ Live demo with measurable results  
-✅ Professional documentation  
-✅ Compelling brand story  
-
 ---
 
-## 👥 Team
-
-Built with ❤️ by innovators who believe AI can illuminate the path to zero downtime.
-
----
 
 ## 📝 License
 
