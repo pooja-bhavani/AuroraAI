@@ -12,6 +12,8 @@ export default function App() {
   const [monitoredSites, setMonitoredSites] = useState([]);
   const [currentDiagnosis, setCurrentDiagnosis] = useState(null);
   const [logs, setLogs] = useState([]);
+  const [aiThinking, setAiThinking] = useState(false);
+  const [patternRecognition, setPatternRecognition] = useState(null);
   const logRef = useRef(null);
 
   useEffect(() => {
@@ -42,6 +44,8 @@ export default function App() {
 
     setLogs([]);
     setStatus("Analyzing...");
+    setAiThinking(true);
+    setPatternRecognition(null);
     const startTime = Date.now();
 
     try {
@@ -56,6 +60,17 @@ export default function App() {
       setCurrentDiagnosis(res.data.diagnosis);
       setConfidence(res.data.diagnosis.confidence);
       setReason(res.data.diagnosis.root_cause);
+      setAiThinking(false);
+      
+      // Show pattern recognition
+      setPatternRecognition({
+        detected: true,
+        patterns: [
+          `Status Code: ${res.data.result.status === 'error' ? 'Error Detected' : 'Healthy'}`,
+          `Response Time: ${res.data.result.response_time}ms`,
+          `Confidence: ${res.data.diagnosis.confidence}%`
+        ]
+      });
       
       if (res.data.result.status === "healthy") {
         setStatus("Healthy");
@@ -64,7 +79,8 @@ export default function App() {
       }
     } catch (err) {
       console.error(err);
-      setStatus("Error");
+      setStatus("Issues Detected");
+      setAiThinking(false);
       const endTime = Date.now();
       const scanTime = ((endTime - startTime) / 1000).toFixed(2);
       setMttr(`${scanTime}s`);
@@ -102,6 +118,32 @@ export default function App() {
       alert(`Started monitoring ${websiteUrl}`);
     } catch (err) {
       console.error(err);
+    }
+  };
+
+  const autoHeal = async () => {
+    if (!websiteUrl) {
+      alert("Please enter a website URL");
+      return;
+    }
+
+    setLogs([]);
+    setStatus("Auto-Healing...");
+
+    try {
+      const res = await axios.post("http://localhost:5001/auto-heal", {
+        url: websiteUrl,
+      });
+
+      if (res.data.success) {
+        setStatus("Healthy");
+        alert(`Auto-healing completed in ${res.data.healing_time}`);
+      } else {
+        alert(res.data.message);
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus("Error");
     }
   };
 
@@ -159,14 +201,18 @@ export default function App() {
              Monitor 24/7
           </motion.button>
 
-          <motion.button
-            whileTap={{ scale: 0.95 }}
-            whileHover={{ scale: 1.02 }}
-            onClick={simulateFailure}
-            className="bg-red-600 px-6 py-3 rounded-xl hover:bg-red-700 font-semibold"
-          >
-             Simulate Failure
-          </motion.button>
+          {status === "Issues Detected" && (
+            <motion.button
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.02 }}
+              onClick={autoHeal}
+              className="bg-purple-600 px-6 py-3 rounded-xl hover:bg-purple-700 font-semibold"
+            >
+              ✨ Auto-Heal
+            </motion.button>
+          )}
 
           <motion.button
             whileTap={{ scale: 0.95 }}
@@ -191,6 +237,31 @@ export default function App() {
           ))}
         </div>
       </motion.div>
+
+      {patternRecognition && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="bg-gradient-to-r from-purple-900/50 to-pink-900/50 backdrop-blur-lg p-6 rounded-2xl shadow-2xl mb-6 border border-purple-500/50"
+        >
+          <h2 className="text-2xl font-semibold mb-4 flex items-center">
+            🧠 AI Pattern Recognition
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {patternRecognition.patterns.map((pattern, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: idx * 0.1 }}
+                className="bg-black/30 p-4 rounded-xl border border-purple-400/30"
+              >
+                <p className="text-purple-300 text-sm font-mono">{pattern}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      )}
 
       <motion.div
         layout
