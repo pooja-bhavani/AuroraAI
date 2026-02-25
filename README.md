@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 </div>
-
+ 
 **Beautiful Intelligence. Instant Detection. Auto-Healing.**
 
 ## TerraCode Convergence Hackathon 2026
