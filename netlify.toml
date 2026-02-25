@@ -1,9 +1,0 @@
-[build]
-  base = "fixmycluster/frontend"
-  command = "npm install && npm run build"
-  publish = "fixmycluster/frontend/dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
